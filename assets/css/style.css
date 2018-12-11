@@ -1,0 +1,67 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+h1{
+    font-size:24px;
+    color:rgb(238, 83, 96);
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.styling{
+    background-color:rgb(101, 228, 224);
+    font-family: Times New Roman, Times, "serif";
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    width: 200px;
+    pointer-events: none;  /*This is not a clickable item and does not change the color*/
+}
+
+.navbar-right{
+    font-family: Times New Roman, Times, "serif";
+    font-size:18px;
+}
+
+ img.scaled {
+    width: 325px;
+    height:200px;
+  }
+
+ figure {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    font-size: 18px;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+figcaption{
+    background-color:rgba(101, 228, 224, 0.619);
+}
+
+
+.btn{
+    background-color:rgb(101, 228, 224);
+    color: #ffffff;
+    font-size: inherit;
+    padding: 10px;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #dddddd;
+    line-height: 60px;
+    text-align: center;
+    border-top: 8px solid rgb(238, 83, 96);
+ }
